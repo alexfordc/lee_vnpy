@@ -1,0 +1,60 @@
+INFO  [2020-03-29 09:55:02,280][engine.py:1506] 指数合约:I99.DCE, 主力合约:j2006.DCE
+INFO  [2020-03-29 09:55:13,082][engine.py:1506] 策略初始化
+INFO  [2020-03-29 09:55:13,100][engine.py:1506] 恢复M15缓存数据,最新bar结束时间:2020-03-27 14:59:00
+INFO  [2020-03-29 09:55:13,101][engine.py:1506] 加载缓存k线数据完毕
+INFO  [2020-03-29 09:55:13,103][engine.py:1506] 开始连接通达信行情服务器
+INFO  [2020-03-29 09:55:13,170][engine.py:1506] 创建tdx连接, IP: 106.14.95.149/7727
+INFO  [2020-03-29 09:55:13,170][engine.py:1506] 没有设置结束时间，缺省为当日
+INFO  [2020-03-29 09:55:13,171][engine.py:1506] 2020-03-29 09:55:13.171943开始下载tdx:IL9 1min数据, 2020-03-25 14:59:00 to 2020-03-30 16:00:00.
+INFO  [2020-03-29 09:55:13,231][engine.py:1506] 分段取数据开始:2020-03-25 14:11:00
+INFO  [2020-03-29 09:55:13,353][engine.py:1506] dataframe => [bars]
+INFO  [2020-03-29 09:55:13,649][engine.py:1506] 将数据从json_data中恢复
+INFO  [2020-03-29 09:55:13,649][engine.py:1506] init_position(),初始化持仓
+INFO  [2020-03-29 09:55:13,651][engine.py:1506] 没有持久化的空单数据
+INFO  [2020-03-29 09:55:13,652][engine.py:1506] 没有持久化的多单数据
+INFO  [2020-03-29 09:55:13,653][engine.py:1506] test_3加载持久化数据完成，多单:0，空单:0,共:0手
+INFO  [2020-03-29 09:55:13,653][engine.py:1506] GrideTrade保存文件D:\lee_vnpy\examples\vn_trader\data\test_3_Grids.json完成
+INFO  [2020-03-29 09:55:13,654][engine.py:1506] 新增订阅合约:j2006.DCE
+INFO  [2020-03-29 09:55:13,654][engine.py:1506] 新增订阅合约:I99.DCE
+INFO  [2020-03-29 09:55:13,658][engine.py:1506] 策略初始化完成
+INFO  [2020-03-29 09:55:13,665][engine.py:1506] 启动
+INFO  [2020-03-29 09:55:13,733][engine.py:1506] [M15][td:2020-03-27] dt:2020-03-27 14:45:00 o:1766.0;h:1770.0;l:619.0;c:619.5,v:30418.0,MA(10):1647.5,MA(20):1707.025,MA(120):1769.0958,Atr(20):65.14
+INFO  [2020-03-29 09:55:13,734][engine.py:1506] 2020-03-29 09:55:13.000500 死叉 0 => 金叉 :30
+INFO  [2020-03-29 09:55:13,734][engine.py:1506] 开启做空趋势事务
+INFO  [2020-03-29 09:55:13,735][engine.py:1506] 2020-03-29 09:55:13.000500 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 09:55:13,736][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 09:55:29,019][engine.py:1506] 停止
+INFO  [2020-03-29 09:56:00,242][engine.py:1506] 2020-03-29 09:56:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 09:56:00,242][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 09:56:00,976][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 09:57:00,112][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 09:57:00,136][engine.py:1506] 2020-03-29 09:57:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 09:57:00,137][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 09:58:00,106][engine.py:1506] 2020-03-29 09:58:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 09:58:00,107][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 09:58:00,147][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 09:59:00,102][engine.py:1506] 2020-03-29 09:59:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 09:59:00,102][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 09:59:00,196][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 10:00:00,138][engine.py:1506] [M15][td:2020-03-30] dt:2020-03-29 09:55:00 o:619.5;h:619.5;l:619.5;c:619.5,v:534,MA(10):1534.35,MA(20):1649.3,MA(120):1758.7833,Atr(20):61.8736
+INFO  [2020-03-29 10:00:00,139][engine.py:1506] 2020-03-29 10:00:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 10:00:00,139][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 10:00:00,283][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 10:01:00,437][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 10:01:00,599][engine.py:1506] 2020-03-29 10:01:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 10:01:00,599][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 10:02:00,428][engine.py:1506] 2020-03-29 10:02:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 10:02:00,428][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 10:02:00,666][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 10:03:00,305][engine.py:1506] 2020-03-29 10:03:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 10:03:00,305][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 10:03:00,814][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 10:04:00,241][engine.py:1506] 2020-03-29 10:04:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 10:04:00,241][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 10:04:00,946][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 10:05:00,058][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 10:05:00,559][engine.py:1506] 2020-03-29 10:05:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 10:05:00,559][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])
+INFO  [2020-03-29 10:06:00,086][engine.py:1506] 当前持仓:[]
+INFO  [2020-03-29 10:06:00,332][engine.py:1506] 2020-03-29 10:06:00 当前指数I99.DCE价格:619.5,当前主力j2006.DCE价格：1747.0
+INFO  [2020-03-29 10:06:00,332][engine.py:1506] 当前Policy:OrderedDict([('create_time', '2020-03-28 22:00:50'), ('save_time', '2020-03-28 22:01:07'), ('tns_direction', '空'), ('sub_tns', {'count': 30, 'price': 619.5}), ('tns_high_price', 0), ('tns_low_price', 0), ('tns_open_price', 0), ('last_open_price', 0), ('last_under_open_price', 0), ('tns_stop_price', 0), ('tns_rtn_pips', 0), ('allow_add_pos', False), ('add_pos_count_above_first_price', 0), ('add_pos_count_under_first_price', 0)])

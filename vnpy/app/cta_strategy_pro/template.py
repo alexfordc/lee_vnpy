@@ -8,7 +8,7 @@ import zlib
 
 from abc import ABC
 from copy import copy
-from typing import Any, Callable, Dict
+from typing import Any, Callable
 from logging import INFO, ERROR
 from datetime import datetime
 from vnpy.trader.constant import Interval, Direction, Offset, Status, OrderType, Color
@@ -23,7 +23,6 @@ from vnpy.component.cta_policy import CtaPolicy  # noqa
 
 class CtaTemplate(ABC):
     """CTA策略模板"""
-    tick_dict: Dict[Any, Any]
 
     author = ""
     parameters = []
@@ -1569,7 +1568,8 @@ class CtaProFutureTemplate(CtaProTemplate):
             over_seconds = (dt - order_time).total_seconds()
 
             # 只处理未成交的限价委托单
-            if order_status in [Status.NOTTRADED,Status.SUBMITTING] and (order_type == OrderType.LIMIT or '.SPD' in order_vt_symbol):
+            if order_status in [Status.NOTTRADED, Status.SUBMITTING] and (
+                    order_type == OrderType.LIMIT or '.SPD' in order_vt_symbol):
                 if over_seconds > self.cancel_seconds or force:  # 超过设置的时间还未成交
                     self.write_log(u'超时{}秒未成交，取消委托单：vt_orderid:{},order:{}'
                                    .format(over_seconds, vt_orderid, order_info))
@@ -1580,7 +1580,9 @@ class CtaProFutureTemplate(CtaProTemplate):
                         self.write_log(u'撤单失败,更新状态为撤单成功')
                         order_info.update({'status': Status.CANCELLED})
                         self.active_orders.update({vt_orderid: order_info})
-
+                        if order_grid:
+                            if vt_orderid in order_grid.order_ids:
+                                order_grid.order_ids.remove(vt_orderid)
                 continue
 
             # 处理状态为‘撤销’的委托单
@@ -2214,5 +2216,3 @@ class CtaProFutureTemplate(CtaProTemplate):
                     self.write_log(u'空单止盈/止损委托成功')
                 else:
                     self.write_error(u'委托空单平仓失败')
-
-
