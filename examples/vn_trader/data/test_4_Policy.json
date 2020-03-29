@@ -1,0 +1,16 @@
+{
+    "create_time": "",
+    "save_time": "2020-03-28 22:01:06",
+    "tns_direction": "",
+    "sub_tns": {},
+    "tns_high_price": 0,
+    "tns_low_price": 0,
+    "tns_open_price": 0,
+    "last_open_price": 0,
+    "last_under_open_price": 0,
+    "tns_stop_price": 0,
+    "tns_rtn_pips": 0,
+    "allow_add_pos": false,
+    "add_pos_count_above_first_price": 0,
+    "add_pos_count_under_first_price": 0
+}

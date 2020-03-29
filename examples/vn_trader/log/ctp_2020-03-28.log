@@ -1,0 +1,139 @@
+INFO  [2020-03-28 21:13:33,859][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-28 21:13:33,862][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-28 21:13:33,926][gateway.py:189] 创建tdx连接, IP: 106.14.95.149/7727
+INFO  [2020-03-28 21:13:33,927][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-28 21:13:33.927289
+INFO  [2020-03-28 21:13:33,984][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-28 21:13:34,021][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-28 21:13:34,159][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-28 21:13:34,159][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-28 21:13:34,407][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-28 21:13:36,548][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-28 21:13:37,572][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-28 21:13:44,235][gateway.py:189] 订阅:Exchange.DCE i2005
+INFO  [2020-03-28 21:13:56,109][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-28 21:13:56,109][gateway.py:189] J99=>JL9
+INFO  [2020-03-28 21:13:56,109][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-28 21:13:56,134][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-28 21:14:00,463][gateway.py:189] tdx check point. 2020-03-28 21:14:00.463002, process symbols:{'JL9'}
+INFO  [2020-03-28 21:14:01,031][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-28 21:15:00,139][gateway.py:189] tdx check point. 2020-03-28 21:15:00.139921, process symbols:{'JL9'}
+INFO  [2020-03-28 21:16:00,200][gateway.py:189] tdx check point. 2020-03-28 21:16:00.200953, process symbols:{'JL9'}
+INFO  [2020-03-28 21:17:00,252][gateway.py:189] tdx check point. 2020-03-28 21:17:00.252039, process symbols:{'JL9'}
+INFO  [2020-03-28 21:18:00,009][gateway.py:189] tdx check point. 2020-03-28 21:18:00.009729, process symbols:{'JL9'}
+INFO  [2020-03-28 21:19:00,350][gateway.py:189] tdx check point. 2020-03-28 21:19:00.350730, process symbols:{'JL9'}
+INFO  [2020-03-28 21:20:00,078][gateway.py:189] tdx check point. 2020-03-28 21:20:00.078662, process symbols:{'JL9'}
+INFO  [2020-03-28 21:21:00,134][gateway.py:189] tdx check point. 2020-03-28 21:21:00.134112, process symbols:{'JL9'}
+INFO  [2020-03-28 22:22:19,338][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-28 22:22:19,341][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-28 22:22:19,416][gateway.py:189] 创建tdx连接, IP: 106.14.95.149/7727
+INFO  [2020-03-28 22:22:19,417][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-28 22:22:19.417750
+INFO  [2020-03-28 22:22:19,418][gateway.py:189] 有指数订阅，连接通达信行情服务器
+INFO  [2020-03-28 22:22:19,418][gateway.py:189] 通达信行情订阅 I99
+INFO  [2020-03-28 22:22:19,419][gateway.py:189] I99=>IL9
+INFO  [2020-03-28 22:22:19,419][gateway.py:189] 有指数订阅，连接通达信行情服务器
+INFO  [2020-03-28 22:22:19,419][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-28 22:22:19,419][gateway.py:189] J99=>JL9
+INFO  [2020-03-28 22:22:19,419][gateway.py:189] 有指数订阅，连接通达信行情服务器
+INFO  [2020-03-28 22:22:19,420][gateway.py:189] 通达信行情订阅 I99
+INFO  [2020-03-28 22:22:19,420][gateway.py:189] I99=>IL9
+INFO  [2020-03-28 22:22:19,464][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-28 22:22:19,633][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-28 22:22:19,872][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-28 22:22:22,012][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-28 22:22:22,497][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-28 22:22:22,576][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-28 22:22:23,287][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-28 22:23:00,407][gateway.py:189] tdx check point. 2020-03-28 22:23:00.407829, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:24:00,188][gateway.py:189] tdx check point. 2020-03-28 22:24:00.188450, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:25:00,308][gateway.py:189] tdx check point. 2020-03-28 22:25:00.308212, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:26:00,480][gateway.py:189] tdx check point. 2020-03-28 22:26:00.480408, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:27:00,118][gateway.py:189] tdx check point. 2020-03-28 22:27:00.118159, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:28:00,357][gateway.py:189] tdx check point. 2020-03-28 22:28:00.357988, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:29:00,038][gateway.py:189] tdx check point. 2020-03-28 22:29:00.038946, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:30:00,115][gateway.py:189] tdx check point. 2020-03-28 22:30:00.115337, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:31:00,254][gateway.py:189] tdx check point. 2020-03-28 22:31:00.253604, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:32:00,325][gateway.py:189] tdx check point. 2020-03-28 22:32:00.325301, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:32:46,645][gateway.py:189] 订阅:Exchange.DCE i2005
+INFO  [2020-03-28 22:33:00,000][gateway.py:189] tdx check point. 2020-03-28 22:33:00.000564, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:33:18,665][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-28 22:34:00,189][gateway.py:189] tdx check point. 2020-03-28 22:34:00.189773, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:35:00,340][gateway.py:189] tdx check point. 2020-03-28 22:35:00.340962, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:36:00,536][gateway.py:189] tdx check point. 2020-03-28 22:36:00.536264, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:37:00,359][gateway.py:189] tdx check point. 2020-03-28 22:37:00.359757, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:38:00,033][gateway.py:189] tdx check point. 2020-03-28 22:38:00.033273, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:39:00,074][gateway.py:189] tdx check point. 2020-03-28 22:39:00.074315, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:40:00,142][gateway.py:189] tdx check point. 2020-03-28 22:40:00.142779, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:41:00,185][gateway.py:189] tdx check point. 2020-03-28 22:41:00.185003, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:42:00,227][gateway.py:189] tdx check point. 2020-03-28 22:42:00.227319, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:43:00,445][gateway.py:189] tdx check point. 2020-03-28 22:43:00.445049, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:44:00,438][gateway.py:189] tdx check point. 2020-03-28 22:44:00.438574, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:45:00,411][gateway.py:189] tdx check point. 2020-03-28 22:45:00.411665, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:46:00,417][gateway.py:189] tdx check point. 2020-03-28 22:46:00.417130, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:47:00,493][gateway.py:189] tdx check point. 2020-03-28 22:47:00.493366, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:48:00,171][gateway.py:189] tdx check point. 2020-03-28 22:48:00.171178, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:49:00,413][gateway.py:189] tdx check point. 2020-03-28 22:49:00.413747, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:50:00,391][gateway.py:189] tdx check point. 2020-03-28 22:50:00.390900, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:51:00,371][gateway.py:189] tdx check point. 2020-03-28 22:51:00.371394, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:52:00,359][gateway.py:189] tdx check point. 2020-03-28 22:52:00.359081, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:53:00,365][gateway.py:189] tdx check point. 2020-03-28 22:53:00.365689, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:54:00,475][gateway.py:189] tdx check point. 2020-03-28 22:54:00.475169, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:55:00,511][gateway.py:189] tdx check point. 2020-03-28 22:55:00.511484, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:56:00,010][gateway.py:189] tdx check point. 2020-03-28 22:56:00.010811, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:57:00,201][gateway.py:189] tdx check point. 2020-03-28 22:57:00.201838, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:58:00,496][gateway.py:189] tdx check point. 2020-03-28 22:58:00.496849, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 22:59:00,055][gateway.py:189] tdx check point. 2020-03-28 22:59:00.055332, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:00:00,115][gateway.py:189] tdx check point. 2020-03-28 23:00:00.115404, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:01:00,352][gateway.py:189] tdx check point. 2020-03-28 23:01:00.352441, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:02:00,045][gateway.py:189] tdx check point. 2020-03-28 23:02:00.045996, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:03:00,119][gateway.py:189] tdx check point. 2020-03-28 23:03:00.119195, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:04:00,500][gateway.py:189] tdx check point. 2020-03-28 23:04:00.500415, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:05:00,326][gateway.py:189] tdx check point. 2020-03-28 23:05:00.326591, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:06:00,524][gateway.py:189] tdx check point. 2020-03-28 23:06:00.524515, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:07:00,243][gateway.py:189] tdx check point. 2020-03-28 23:07:00.243841, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:08:00,013][gateway.py:189] tdx check point. 2020-03-28 23:08:00.013195, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:09:00,501][gateway.py:189] tdx check point. 2020-03-28 23:09:00.501451, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:10:00,010][gateway.py:189] tdx check point. 2020-03-28 23:10:00.010684, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:11:00,082][gateway.py:189] tdx check point. 2020-03-28 23:11:00.082116, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:12:00,279][gateway.py:189] tdx check point. 2020-03-28 23:12:00.279668, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:13:00,279][gateway.py:189] tdx check point. 2020-03-28 23:13:00.279211, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:14:00,466][gateway.py:189] tdx check point. 2020-03-28 23:14:00.466537, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:15:00,393][gateway.py:189] tdx check point. 2020-03-28 23:15:00.393046, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:16:00,019][gateway.py:189] tdx check point. 2020-03-28 23:16:00.019574, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:17:00,144][gateway.py:189] tdx check point. 2020-03-28 23:17:00.144123, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:18:00,505][gateway.py:189] tdx check point. 2020-03-28 23:18:00.505144, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:19:00,456][gateway.py:189] tdx check point. 2020-03-28 23:19:00.456466, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:20:00,502][gateway.py:189] tdx check point. 2020-03-28 23:20:00.502964, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:21:00,475][gateway.py:189] tdx check point. 2020-03-28 23:21:00.475901, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:22:00,460][gateway.py:189] tdx check point. 2020-03-28 23:22:00.460797, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:23:00,460][gateway.py:189] tdx check point. 2020-03-28 23:23:00.460460, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:24:00,069][gateway.py:189] tdx check point. 2020-03-28 23:24:00.069353, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:25:00,040][gateway.py:189] tdx check point. 2020-03-28 23:25:00.040260, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:26:00,111][gateway.py:189] tdx check point. 2020-03-28 23:26:00.111758, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:27:00,077][gateway.py:189] tdx check point. 2020-03-28 23:27:00.077610, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:28:00,096][gateway.py:189] tdx check point. 2020-03-28 23:28:00.096280, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:29:00,133][gateway.py:189] tdx check point. 2020-03-28 23:29:00.133143, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:30:00,228][gateway.py:189] tdx check point. 2020-03-28 23:30:00.228255, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:31:00,219][gateway.py:189] tdx check point. 2020-03-28 23:31:00.219160, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:32:00,364][gateway.py:189] tdx check point. 2020-03-28 23:32:00.364671, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:33:00,410][gateway.py:189] tdx check point. 2020-03-28 23:33:00.410865, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:34:00,518][gateway.py:189] tdx check point. 2020-03-28 23:34:00.518718, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:35:00,007][gateway.py:189] tdx check point. 2020-03-28 23:35:00.007408, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:36:00,045][gateway.py:189] tdx check point. 2020-03-28 23:36:00.045245, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:37:00,034][gateway.py:189] tdx check point. 2020-03-28 23:37:00.034718, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:38:00,086][gateway.py:189] tdx check point. 2020-03-28 23:38:00.086371, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:39:00,425][gateway.py:189] tdx check point. 2020-03-28 23:39:00.425108, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:40:00,466][gateway.py:189] tdx check point. 2020-03-28 23:40:00.466239, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:41:00,521][gateway.py:189] tdx check point. 2020-03-28 23:41:00.521559, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:42:00,485][gateway.py:189] tdx check point. 2020-03-28 23:42:00.485155, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:43:00,453][gateway.py:189] tdx check point. 2020-03-28 23:43:00.453838, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:44:00,444][gateway.py:189] tdx check point. 2020-03-28 23:44:00.444146, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:45:00,447][gateway.py:189] tdx check point. 2020-03-28 23:45:00.447869, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:46:00,052][gateway.py:189] tdx check point. 2020-03-28 23:46:00.052932, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:47:00,079][gateway.py:189] tdx check point. 2020-03-28 23:47:00.079364, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:48:00,092][gateway.py:189] tdx check point. 2020-03-28 23:48:00.092688, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:49:00,186][gateway.py:189] tdx check point. 2020-03-28 23:49:00.186607, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:50:00,389][gateway.py:189] tdx check point. 2020-03-28 23:50:00.389821, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:51:00,483][gateway.py:189] tdx check point. 2020-03-28 23:51:00.483757, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:52:00,329][gateway.py:189] tdx check point. 2020-03-28 23:52:00.329148, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:53:00,481][gateway.py:189] tdx check point. 2020-03-28 23:53:00.481660, process symbols:{'IL9', 'JL9'}
+INFO  [2020-03-28 23:54:00,325][gateway.py:189] tdx check point. 2020-03-28 23:54:00.325880, process symbols:{'IL9', 'JL9'}

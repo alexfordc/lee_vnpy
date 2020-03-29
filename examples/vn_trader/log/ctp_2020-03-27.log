@@ -1,0 +1,330 @@
+INFO  [2020-03-27 09:44:02,635][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 09:44:02,643][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 09:44:02,705][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 09:44:02,715][gateway.py:189] 创建tdx连接, IP: 124.74.236.94/7721
+INFO  [2020-03-27 09:44:02,716][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 09:44:02.716968
+INFO  [2020-03-27 09:44:02,731][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 09:44:02,769][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 09:44:02,770][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 09:44:03,189][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 09:44:03,228][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 09:44:03,565][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 09:44:14,078][gateway.py:189] 订阅:Exchange.DCE i2005
+INFO  [2020-03-27 09:45:00,231][gateway.py:189] tdx check point. 2020-03-27 09:45:00.231257, process symbols:set()
+INFO  [2020-03-27 09:45:41,792][gateway.py:189] 订阅:Exchange.CZCE CF007
+INFO  [2020-03-27 09:46:00,234][gateway.py:189] tdx check point. 2020-03-27 09:46:00.234689, process symbols:set()
+INFO  [2020-03-27 09:46:24,182][gateway.py:189] 断开行情API
+INFO  [2020-03-27 09:46:24,186][gateway.py:189] 断开交易API
+INFO  [2020-03-27 09:46:24,190][gateway.py:189] 断开tdx指数行情API
+INFO  [2020-03-27 09:46:24,190][gateway.py:189] 退出tdx API
+ERROR  [2020-03-27 09:46:24,236][gateway.py:189] tdx查询线程 2020-03-27 09:46:24.236062退出
+INFO  [2020-03-27 09:46:57,991][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 09:46:58,002][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 09:46:58,149][gateway.py:189] 创建tdx连接, IP: 124.74.236.94/7721
+INFO  [2020-03-27 09:46:58,150][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 09:46:58.150002
+INFO  [2020-03-27 09:47:00,153][gateway.py:189] tdx check point. 2020-03-27 09:47:00.153117, process symbols:set()
+INFO  [2020-03-27 09:47:20,821][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 09:47:20,831][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 09:47:20,939][gateway.py:189] 创建tdx连接, IP: 124.74.236.94/7721
+INFO  [2020-03-27 09:47:20,940][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 09:47:20.940305
+INFO  [2020-03-27 09:47:26,594][gateway.py:189] 断开行情API
+INFO  [2020-03-27 09:47:26,596][gateway.py:189] 断开交易API
+INFO  [2020-03-27 09:47:26,598][gateway.py:189] 断开tdx指数行情API
+INFO  [2020-03-27 09:47:26,599][gateway.py:189] 退出tdx API
+ERROR  [2020-03-27 09:47:26,944][gateway.py:189] tdx查询线程 2020-03-27 09:47:26.944649退出
+INFO  [2020-03-27 09:48:08,708][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 09:48:08,716][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 09:48:08,811][gateway.py:189] 创建tdx连接, IP: 124.74.236.94/7721
+INFO  [2020-03-27 09:48:08,813][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 09:48:08.813044
+INFO  [2020-03-27 09:48:08,824][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 09:48:08,827][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 09:48:08,890][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 09:48:08,894][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 09:48:09,405][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 09:48:09,801][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 09:48:10,649][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 09:48:15,668][gateway.py:189] 订阅:Exchange.CZCE CF007
+INFO  [2020-03-27 09:49:00,379][gateway.py:189] tdx check point. 2020-03-27 09:49:00.379993, process symbols:set()
+INFO  [2020-03-27 09:49:18,083][gateway.py:189] 订阅:Exchange.DCE i2005
+INFO  [2020-03-27 09:49:55,447][gateway.py:189] 订阅:Exchange.CZCE su
+INFO  [2020-03-27 09:49:59,783][gateway.py:189] 订阅:Exchange.CZCE su2005
+INFO  [2020-03-27 09:50:00,383][gateway.py:189] tdx check point. 2020-03-27 09:50:00.383425, process symbols:set()
+INFO  [2020-03-27 09:50:03,232][gateway.py:189] 订阅:Exchange.CZCE s2005
+INFO  [2020-03-27 09:51:00,390][gateway.py:189] tdx check point. 2020-03-27 09:51:00.390857, process symbols:set()
+INFO  [2020-03-27 09:51:12,608][gateway.py:189] 订阅:Exchange.SHFE ru2005
+INFO  [2020-03-27 09:52:00,395][gateway.py:189] tdx check point. 2020-03-27 09:52:00.395289, process symbols:set()
+INFO  [2020-03-27 09:52:40,248][gateway.py:189] 订阅:Exchange.DCE i2005
+INFO  [2020-03-27 09:53:00,403][gateway.py:189] tdx check point. 2020-03-27 09:53:00.403722, process symbols:set()
+INFO  [2020-03-27 16:35:02,212][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 16:35:02,220][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 16:35:02,270][gateway.py:189] 创建tdx连接, IP: 124.74.236.94/7721
+INFO  [2020-03-27 16:35:02,273][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 16:35:02.273414
+INFO  [2020-03-27 16:35:02,298][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 16:35:02,299][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 16:35:02,361][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 16:35:02,361][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 16:35:02,793][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 16:35:02,877][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 16:35:03,242][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 16:35:10,654][gateway.py:189] 订阅:Exchange.DCE i2005
+INFO  [2020-03-27 16:35:58,998][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 16:35:59,004][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 16:35:59,065][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 16:35:59,074][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 16:35:59,077][gateway.py:189] 创建tdx连接, IP: 124.74.236.94/7721
+INFO  [2020-03-27 16:35:59,079][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 16:35:59.079663
+INFO  [2020-03-27 16:35:59,109][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 16:35:59,122][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 16:35:59,492][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 16:35:59,574][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 16:35:59,936][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 16:36:00,111][gateway.py:189] tdx check point. 2020-03-27 16:36:00.111722, process symbols:set()
+ERROR  [2020-03-27 16:36:07,032][gateway.py:189] 交易撤单失败，代码：26，信息：CTP:报单已全成交或已撤销，不能再撤
+ERROR  [2020-03-27 16:36:08,922][gateway.py:189] 交易撤单失败，代码：26，信息：CTP:报单已全成交或已撤销，不能再撤
+INFO  [2020-03-27 16:37:00,115][gateway.py:189] tdx check point. 2020-03-27 16:37:00.115154, process symbols:set()
+INFO  [2020-03-27 16:38:00,118][gateway.py:189] tdx check point. 2020-03-27 16:38:00.118586, process symbols:set()
+INFO  [2020-03-27 16:38:16,608][gateway.py:189] 订阅:Exchange.DCE i2005
+INFO  [2020-03-27 16:39:00,122][gateway.py:189] tdx check point. 2020-03-27 16:39:00.122018, process symbols:set()
+INFO  [2020-03-27 16:40:00,125][gateway.py:189] tdx check point. 2020-03-27 16:40:00.125450, process symbols:set()
+INFO  [2020-03-27 16:41:00,130][gateway.py:189] tdx check point. 2020-03-27 16:41:00.130882, process symbols:set()
+INFO  [2020-03-27 16:42:00,134][gateway.py:189] tdx check point. 2020-03-27 16:42:00.134314, process symbols:set()
+INFO  [2020-03-27 16:43:00,137][gateway.py:189] tdx check point. 2020-03-27 16:43:00.137746, process symbols:set()
+INFO  [2020-03-27 16:44:00,142][gateway.py:189] tdx check point. 2020-03-27 16:44:00.142178, process symbols:set()
+INFO  [2020-03-27 16:45:00,145][gateway.py:189] tdx check point. 2020-03-27 16:45:00.145610, process symbols:set()
+INFO  [2020-03-27 16:45:42,387][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 16:45:42,391][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 16:45:42,467][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 16:45:42,473][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 16:45:42,475][gateway.py:189] 创建tdx连接, IP: 124.74.236.94/7721
+INFO  [2020-03-27 16:45:42,477][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 16:45:42.477031
+INFO  [2020-03-27 16:45:42,529][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 16:45:42,529][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 16:45:42,887][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 16:45:42,970][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 16:45:43,330][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 16:46:00,012][gateway.py:189] tdx check point. 2020-03-27 16:46:00.012034, process symbols:set()
+INFO  [2020-03-27 16:46:07,077][gateway.py:189] 订阅:Exchange.SHFE rb2005
+INFO  [2020-03-27 16:46:07,078][gateway.py:189] 通达信行情订阅 RB99
+INFO  [2020-03-27 16:46:07,078][gateway.py:189] RB99=>RBL9
+INFO  [2020-03-27 16:46:07,082][gateway.py:189] 订阅:Exchange.SHFE rb2005
+INFO  [2020-03-27 16:46:12,521][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-27 16:46:12,521][gateway.py:189] J99=>JL9
+INFO  [2020-03-27 16:46:12,522][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 16:46:12,536][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 16:47:00,328][gateway.py:189] tdx check point. 2020-03-27 16:47:00.328484, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:48:00,239][gateway.py:189] tdx check point. 2020-03-27 16:48:00.239911, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:49:00,419][gateway.py:189] tdx check point. 2020-03-27 16:49:00.419353, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:50:00,340][gateway.py:189] tdx check point. 2020-03-27 16:50:00.340780, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:51:00,185][gateway.py:189] tdx check point. 2020-03-27 16:51:00.185203, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:52:00,108][gateway.py:189] tdx check point. 2020-03-27 16:52:00.108631, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:53:00,057][gateway.py:189] tdx check point. 2020-03-27 16:53:00.057059, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:54:00,524][gateway.py:189] tdx check point. 2020-03-27 16:54:00.524518, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:55:00,153][gateway.py:189] tdx check point. 2020-03-27 16:55:00.153929, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:56:00,044][gateway.py:189] tdx check point. 2020-03-27 16:56:00.044354, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:57:00,229][gateway.py:189] tdx check point. 2020-03-27 16:57:00.229797, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:58:00,310][gateway.py:189] tdx check point. 2020-03-27 16:58:00.310233, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 16:59:00,234][gateway.py:189] tdx check point. 2020-03-27 16:59:00.234660, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:00:00,123][gateway.py:189] tdx check point. 2020-03-27 17:00:00.123086, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:01:00,428][gateway.py:189] tdx check point. 2020-03-27 17:01:00.428535, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:02:00,156][gateway.py:189] tdx check point. 2020-03-27 17:02:00.156951, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:03:00,434][gateway.py:189] tdx check point. 2020-03-27 17:03:00.434399, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:04:00,257][gateway.py:189] tdx check point. 2020-03-27 17:04:00.257821, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:05:00,187][gateway.py:189] tdx check point. 2020-03-27 17:05:00.187249, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:06:00,113][gateway.py:189] tdx check point. 2020-03-27 17:06:00.113676, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:07:00,456][gateway.py:189] tdx check point. 2020-03-27 17:07:00.456127, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:08:00,390][gateway.py:189] tdx check point. 2020-03-27 17:08:00.390556, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:09:00,048][gateway.py:189] tdx check point. 2020-03-27 17:09:00.048968, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:10:00,454][gateway.py:189] tdx check point. 2020-03-27 17:10:00.454423, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:11:00,521][gateway.py:189] tdx check point. 2020-03-27 17:11:00.521858, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:12:00,378][gateway.py:189] tdx check point. 2020-03-27 17:12:00.378282, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:13:00,282][gateway.py:189] tdx check point. 2020-03-27 17:13:00.282708, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:14:00,239][gateway.py:189] tdx check point. 2020-03-27 17:14:00.239138, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:15:00,040][gateway.py:189] tdx check point. 2020-03-27 17:15:00.040558, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:16:00,366][gateway.py:189] tdx check point. 2020-03-27 17:16:00.366009, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:25:20,169][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 17:25:20,178][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 17:25:20,244][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 17:25:20,249][gateway.py:189] 创建tdx连接, IP: 58.246.109.27/7721
+INFO  [2020-03-27 17:25:20,252][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 17:25:20.252032
+INFO  [2020-03-27 17:25:20,261][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 17:25:20,323][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 17:25:20,324][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 17:25:20,720][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 17:25:20,766][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 17:25:21,113][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 17:25:33,091][gateway.py:189] 订阅:Exchange.SHFE rb2005
+INFO  [2020-03-27 17:25:33,091][gateway.py:189] 通达信行情订阅 RB99
+INFO  [2020-03-27 17:25:33,092][gateway.py:189] RB99=>RBL9
+INFO  [2020-03-27 17:25:33,093][gateway.py:189] 订阅:Exchange.SHFE rb2005
+INFO  [2020-03-27 17:25:38,532][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 17:25:38,532][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-27 17:25:38,532][gateway.py:189] J99=>JL9
+INFO  [2020-03-27 17:25:38,540][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 17:26:00,368][gateway.py:189] tdx check point. 2020-03-27 17:26:00.368327, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 17:31:39,930][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 17:31:39,934][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 17:31:40,001][gateway.py:189] 创建tdx连接, IP: 58.246.109.27/7721
+INFO  [2020-03-27 17:31:40,003][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 17:31:40.003753
+INFO  [2020-03-27 17:32:00,051][gateway.py:189] tdx check point. 2020-03-27 17:32:00.051899, process symbols:set()
+INFO  [2020-03-27 17:32:52,057][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 17:32:52,061][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 17:32:52,130][gateway.py:189] 创建tdx连接, IP: 58.246.109.27/7721
+INFO  [2020-03-27 17:32:52,131][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 17:32:52.131878
+INFO  [2020-03-27 17:33:00,147][gateway.py:189] tdx check point. 2020-03-27 17:33:00.147337, process symbols:set()
+INFO  [2020-03-27 17:33:04,702][gateway.py:189] 通达信行情订阅 RB99
+INFO  [2020-03-27 17:33:04,702][gateway.py:189] RB99=>RBL9
+INFO  [2020-03-27 17:33:09,674][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-27 17:33:09,674][gateway.py:189] J99=>JL9
+INFO  [2020-03-27 17:34:00,360][gateway.py:189] tdx check point. 2020-03-27 17:34:00.360781, process symbols:{'RBL9', 'JL9'}
+INFO  [2020-03-27 19:21:05,841][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 19:21:05,846][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 19:21:05,953][gateway.py:189] 创建tdx连接, IP: 58.246.109.27/7721
+INFO  [2020-03-27 19:21:05,957][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 19:21:05.957699
+INFO  [2020-03-27 19:21:20,670][gateway.py:189] 断开行情API
+INFO  [2020-03-27 19:21:20,862][gateway.py:189] 断开交易API
+INFO  [2020-03-27 19:21:20,865][gateway.py:189] 断开tdx指数行情API
+INFO  [2020-03-27 19:21:20,866][gateway.py:189] 退出tdx API
+ERROR  [2020-03-27 19:21:20,974][gateway.py:189] tdx查询线程 2020-03-27 19:21:20.974982退出
+INFO  [2020-03-27 19:22:32,030][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 19:22:32,033][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 19:22:32,132][gateway.py:189] 创建tdx连接, IP: 58.246.109.27/7721
+INFO  [2020-03-27 19:22:32,133][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 19:22:32,134][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 19:22:32.134738
+INFO  [2020-03-27 19:22:32,171][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 19:22:32,287][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 19:22:32,287][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 19:22:32,597][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 19:22:34,732][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 19:22:35,907][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 19:23:00,176][gateway.py:189] tdx check point. 2020-03-27 19:23:00.176453, process symbols:set()
+INFO  [2020-03-27 19:23:10,046][gateway.py:189] 订阅:Exchange.SHFE rb2005
+INFO  [2020-03-27 19:23:10,047][gateway.py:189] 通达信行情订阅 RB99
+INFO  [2020-03-27 19:23:10,047][gateway.py:189] RB99=>RBL9
+INFO  [2020-03-27 19:23:10,058][gateway.py:189] 订阅:Exchange.SHFE rb2005
+INFO  [2020-03-27 19:23:15,316][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 19:23:15,317][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-27 19:23:15,317][gateway.py:189] J99=>JL9
+INFO  [2020-03-27 19:23:15,328][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 19:24:00,408][gateway.py:189] tdx check point. 2020-03-27 19:24:00.408468, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:25:00,409][gateway.py:189] tdx check point. 2020-03-27 19:25:00.409161, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:26:00,457][gateway.py:189] tdx check point. 2020-03-27 19:26:00.457800, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:27:00,078][gateway.py:189] tdx check point. 2020-03-27 19:27:00.078386, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:28:00,413][gateway.py:189] tdx check point. 2020-03-27 19:28:00.413855, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:29:00,360][gateway.py:189] tdx check point. 2020-03-27 19:29:00.360467, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:30:00,301][gateway.py:189] tdx check point. 2020-03-27 19:30:00.301875, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:31:00,399][gateway.py:189] tdx check point. 2020-03-27 19:31:00.399015, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:32:00,376][gateway.py:189] tdx check point. 2020-03-27 19:32:00.376279, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:33:00,332][gateway.py:189] tdx check point. 2020-03-27 19:33:00.332247, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:34:00,305][gateway.py:189] tdx check point. 2020-03-27 19:34:00.305143, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:35:00,403][gateway.py:189] tdx check point. 2020-03-27 19:35:00.403932, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:36:00,436][gateway.py:189] tdx check point. 2020-03-27 19:36:00.436449, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:37:00,005][gateway.py:189] tdx check point. 2020-03-27 19:37:00.005237, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:38:00,005][gateway.py:189] tdx check point. 2020-03-27 19:38:00.005520, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:39:00,003][gateway.py:189] tdx check point. 2020-03-27 19:39:00.003672, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:40:00,386][gateway.py:189] tdx check point. 2020-03-27 19:40:00.386317, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:41:00,170][gateway.py:189] tdx check point. 2020-03-27 19:41:00.170662, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:42:00,339][gateway.py:189] tdx check point. 2020-03-27 19:42:00.339290, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:43:00,337][gateway.py:189] tdx check point. 2020-03-27 19:43:00.337998, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:44:00,208][gateway.py:189] tdx check point. 2020-03-27 19:44:00.208108, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:45:00,378][gateway.py:189] tdx check point. 2020-03-27 19:45:00.378577, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:46:00,524][gateway.py:189] tdx check point. 2020-03-27 19:46:00.524540, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:47:00,367][gateway.py:189] tdx check point. 2020-03-27 19:47:00.367694, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:48:00,433][gateway.py:189] tdx check point. 2020-03-27 19:48:00.433117, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 19:49:00,085][gateway.py:189] tdx check point. 2020-03-27 19:49:00.085698, process symbols:{'JL9', 'RBL9'}
+INFO  [2020-03-27 20:18:32,405][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 20:18:32,408][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 20:18:32,472][gateway.py:189] 创建tdx连接, IP: 106.14.95.149/7727
+INFO  [2020-03-27 20:18:32,473][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 20:18:32.473083
+INFO  [2020-03-27 20:18:32,569][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 20:18:32,709][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 20:18:35,494][gateway.py:189] 交易服务器连接断开，原因4097
+INFO  [2020-03-27 20:18:35,614][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 20:18:35,692][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 20:18:35,911][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 20:18:38,052][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 20:18:40,099][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 20:18:46,765][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 20:18:46,765][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-27 20:18:46,765][gateway.py:189] J99=>JL9
+INFO  [2020-03-27 20:18:46,769][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 20:19:00,441][gateway.py:189] tdx check point. 2020-03-27 20:19:00.441456, process symbols:{'JL9'}
+INFO  [2020-03-27 20:20:00,526][gateway.py:189] tdx check point. 2020-03-27 20:20:00.526277, process symbols:{'JL9'}
+INFO  [2020-03-27 20:21:00,371][gateway.py:189] tdx check point. 2020-03-27 20:21:00.371048, process symbols:{'JL9'}
+INFO  [2020-03-27 20:22:00,290][gateway.py:189] tdx check point. 2020-03-27 20:22:00.290279, process symbols:{'JL9'}
+INFO  [2020-03-27 20:23:00,210][gateway.py:189] tdx check point. 2020-03-27 20:23:00.210044, process symbols:{'JL9'}
+INFO  [2020-03-27 20:24:00,314][gateway.py:189] tdx check point. 2020-03-27 20:24:00.314205, process symbols:{'JL9'}
+INFO  [2020-03-27 20:25:00,156][gateway.py:189] tdx check point. 2020-03-27 20:25:00.156329, process symbols:{'JL9'}
+INFO  [2020-03-27 20:26:00,074][gateway.py:189] tdx check point. 2020-03-27 20:26:00.074582, process symbols:{'JL9'}
+INFO  [2020-03-27 20:27:00,515][gateway.py:189] tdx check point. 2020-03-27 20:27:00.515501, process symbols:{'JL9'}
+INFO  [2020-03-27 20:28:00,504][gateway.py:189] tdx check point. 2020-03-27 20:28:00.504575, process symbols:{'JL9'}
+INFO  [2020-03-27 20:29:00,415][gateway.py:189] tdx check point. 2020-03-27 20:29:00.415920, process symbols:{'JL9'}
+INFO  [2020-03-27 20:30:00,205][gateway.py:189] tdx check point. 2020-03-27 20:30:00.205915, process symbols:{'JL9'}
+INFO  [2020-03-27 20:31:00,448][gateway.py:189] tdx check point. 2020-03-27 20:31:00.448634, process symbols:{'JL9'}
+INFO  [2020-03-27 20:32:00,365][gateway.py:189] tdx check point. 2020-03-27 20:32:00.365661, process symbols:{'JL9'}
+INFO  [2020-03-27 20:33:00,284][gateway.py:189] tdx check point. 2020-03-27 20:33:00.284165, process symbols:{'JL9'}
+INFO  [2020-03-27 20:34:00,099][gateway.py:189] tdx check point. 2020-03-27 20:34:00.099168, process symbols:{'JL9'}
+INFO  [2020-03-27 20:35:00,384][gateway.py:189] tdx check point. 2020-03-27 20:35:00.384639, process symbols:{'JL9'}
+INFO  [2020-03-27 20:36:00,252][gateway.py:189] tdx check point. 2020-03-27 20:36:00.252014, process symbols:{'JL9'}
+INFO  [2020-03-27 20:37:00,097][gateway.py:189] tdx check point. 2020-03-27 20:37:00.097150, process symbols:{'JL9'}
+INFO  [2020-03-27 20:38:00,485][gateway.py:189] tdx check point. 2020-03-27 20:38:00.485694, process symbols:{'JL9'}
+INFO  [2020-03-27 20:39:00,448][gateway.py:189] tdx check point. 2020-03-27 20:39:00.448040, process symbols:{'JL9'}
+INFO  [2020-03-27 20:39:58,346][gateway.py:189] 断开行情API
+INFO  [2020-03-27 20:39:58,348][gateway.py:189] 断开交易API
+INFO  [2020-03-27 20:39:58,349][gateway.py:189] 断开tdx指数行情API
+INFO  [2020-03-27 20:39:58,350][gateway.py:189] 退出tdx API
+ERROR  [2020-03-27 20:39:58,751][gateway.py:189] tdx查询线程 2020-03-27 20:39:58.751510退出
+INFO  [2020-03-27 20:40:36,288][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 20:40:36,291][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 20:40:36,366][gateway.py:189] 创建tdx连接, IP: 106.14.95.149/7727
+INFO  [2020-03-27 20:40:36,368][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 20:40:36.368551
+INFO  [2020-03-27 20:40:36,408][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 20:40:36,414][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 20:40:36,548][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 20:40:36,549][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 20:40:36,748][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 20:40:38,887][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 20:40:39,585][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 20:40:45,953][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-27 20:40:45,953][gateway.py:189] J99=>JL9
+INFO  [2020-03-27 20:40:45,953][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 20:40:45,960][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 20:41:00,335][gateway.py:189] tdx check point. 2020-03-27 20:41:00.335292, process symbols:{'JL9'}
+INFO  [2020-03-27 20:42:00,504][gateway.py:189] tdx check point. 2020-03-27 20:42:00.504218, process symbols:{'JL9'}
+INFO  [2020-03-27 20:43:40,213][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 20:43:40,215][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 20:43:40,279][gateway.py:189] 创建tdx连接, IP: 106.14.95.149/7727
+INFO  [2020-03-27 20:43:40,280][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 20:43:40.280906
+INFO  [2020-03-27 20:43:40,350][gateway.py:189] 交易服务器连接成功
+INFO  [2020-03-27 20:43:40,375][gateway.py:189] 行情服务器连接成功
+INFO  [2020-03-27 20:43:40,520][gateway.py:189] 行情服务器登录成功
+INFO  [2020-03-27 20:43:40,676][gateway.py:189] 交易服务器授权验证成功
+INFO  [2020-03-27 20:43:40,877][gateway.py:189] 交易服务器登录成功
+INFO  [2020-03-27 20:43:43,063][gateway.py:189] 结算信息确认成功
+INFO  [2020-03-27 20:43:44,424][gateway.py:189] 合约信息查询成功
+INFO  [2020-03-27 20:43:47,339][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-27 20:43:47,339][gateway.py:189] J99=>JL9
+INFO  [2020-03-27 20:43:47,340][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 20:43:47,343][gateway.py:189] 订阅:Exchange.DCE j2005
+INFO  [2020-03-27 20:44:00,474][gateway.py:189] tdx check point. 2020-03-27 20:44:00.474756, process symbols:{'JL9'}
+INFO  [2020-03-27 20:51:34,165][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 20:51:34,167][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 20:51:34,231][gateway.py:189] 创建tdx连接, IP: 106.14.95.149/7727
+INFO  [2020-03-27 20:51:34,232][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 20:51:34.232077
+INFO  [2020-03-27 20:51:42,285][gateway.py:189] 断开行情API
+INFO  [2020-03-27 20:51:42,287][gateway.py:189] 断开交易API
+INFO  [2020-03-27 20:51:42,290][gateway.py:189] 断开tdx指数行情API
+INFO  [2020-03-27 20:51:42,291][gateway.py:189] 退出tdx API
+ERROR  [2020-03-27 20:51:42,744][gateway.py:189] tdx查询线程 2020-03-27 20:51:42.744175退出
+INFO  [2020-03-27 21:02:26,349][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-27 21:02:26,353][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-27 21:02:26,429][gateway.py:189] 创建tdx连接, IP: 106.14.95.149/7727
+INFO  [2020-03-27 21:02:26,431][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-27 21:02:26.431509
+INFO  [2020-03-27 21:02:26,431][gateway.py:189] 有指数订阅，连接通达信行情服务器
+INFO  [2020-03-27 21:02:26,432][gateway.py:189] 通达信行情订阅 J99
+INFO  [2020-03-27 21:02:26,432][gateway.py:189] J99=>JL9
+INFO  [2020-03-27 21:03:00,530][gateway.py:189] tdx check point. 2020-03-27 21:03:00.530283, process symbols:{'JL9'}
+INFO  [2020-03-27 21:03:17,027][gateway.py:189] 断开行情API
+INFO  [2020-03-27 21:03:21,375][gateway.py:189] 断开交易API
+INFO  [2020-03-27 21:03:21,384][gateway.py:189] 断开tdx指数行情API
+INFO  [2020-03-27 21:03:21,385][gateway.py:189] 退出tdx API
+ERROR  [2020-03-27 21:03:21,912][gateway.py:189] tdx查询线程 2020-03-27 21:03:21.912658退出

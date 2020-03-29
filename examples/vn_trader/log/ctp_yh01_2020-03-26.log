@@ -1,0 +1,12 @@
+INFO  [2020-03-26 14:32:54,403][gateway.py:189] 加载的自定义价差/价比配置:{'BU99-1-TA99-1-BJ': {'name': '沥青/TA指数比', 'exchange': 'SPD', 'leg1_symbol': 'BU99', 'leg1_ratio': 1, 'leg2_symbol': 'TA99', 'leg2_ratio': 1, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2, 'price_tick': 0.01}, 'JM99-1-I99-1-BJ': {'name': '焦煤/铁矿指数比', 'exchange': 'SPD', 'leg1_symbol': 'JM99', 'leg1_ratio': 1, 'leg2_symbol': 'I99', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}, 'jm2005-1-i2005-1-BJ': {'name': '焦煤/铁矿主力比', 'exchange': 'SPD', 'leg1_symbol': 'jm2005', 'leg1_ratio': 1, 'leg2_symbol': 'i2005', 'leg2_ratio': 1, 'price_tick': 0.01, 'is_ratio': True, 'size': 100, 'margin_rate': 0.2}}
+INFO  [2020-03-26 14:32:54,414][gateway.py:189] 开始连接通达信行情服务器
+INFO  [2020-03-26 14:32:54,499][gateway.py:189] 创建tdx连接, IP: 124.74.236.94/7721
+INFO  [2020-03-26 14:32:54,500][gateway.py:189] 开始运行tdx查询指数行情线程,2020-03-26 14:32:54.500492
+INFO  [2020-03-26 14:33:00,007][gateway.py:189] tdx check point. 2020-03-26 14:33:00.007807, process symbols:set()
+INFO  [2020-03-26 14:34:00,012][gateway.py:189] tdx check point. 2020-03-26 14:34:00.012239, process symbols:set()
+INFO  [2020-03-26 14:35:00,015][gateway.py:189] tdx check point. 2020-03-26 14:35:00.015671, process symbols:set()
+INFO  [2020-03-26 14:36:00,019][gateway.py:189] tdx check point. 2020-03-26 14:36:00.019103, process symbols:set()
+INFO  [2020-03-26 14:37:00,022][gateway.py:189] tdx check point. 2020-03-26 14:37:00.022535, process symbols:set()
+INFO  [2020-03-26 14:38:00,025][gateway.py:189] tdx check point. 2020-03-26 14:38:00.025967, process symbols:set()
+INFO  [2020-03-26 14:39:00,030][gateway.py:189] tdx check point. 2020-03-26 14:39:00.030399, process symbols:set()
+INFO  [2020-03-26 14:40:00,033][gateway.py:189] tdx check point. 2020-03-26 14:40:00.033831, process symbols:set()
