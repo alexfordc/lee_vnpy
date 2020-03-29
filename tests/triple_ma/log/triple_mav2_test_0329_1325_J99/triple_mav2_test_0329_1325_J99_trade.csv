@@ -1,0 +1,18 @@
+symbol,exchange,vt_symbol,tradeid,vt_tradeid,orderid,vt_orderid,direction,offset,price,volume,time
+J99,DCE,J99.DCE,1,BackTest.1,1,BackTest.1,空,开,1985.5,3,2018-01-31 11:01:00
+J99,DCE,J99.DCE,2,BackTest.2,3,BackTest.3,空,开,1994.5,3,2018-01-31 11:14:00
+J99,DCE,J99.DCE,3,BackTest.3,4,BackTest.4,多,平,2003.5,3,2018-01-31 22:16:00
+J99,DCE,J99.DCE,4,BackTest.4,5,BackTest.5,多,平,2003.5,3,2018-01-31 22:16:00
+J99,DCE,J99.DCE,5,BackTest.5,6,BackTest.6,空,开,1991.5,3,2018-02-01 14:46:00
+J99,DCE,J99.DCE,6,BackTest.6,7,BackTest.7,空,开,1996.0,3,2018-02-01 14:48:00
+J99,DCE,J99.DCE,7,BackTest.7,8,BackTest.8,空,开,1999.5,3,2018-02-01 14:50:00
+J99,DCE,J99.DCE,8,BackTest.8,9,BackTest.9,多,平,2024.0,3,2018-02-02 09:16:00
+J99,DCE,J99.DCE,9,BackTest.9,10,BackTest.10,多,平,2024.0,3,2018-02-02 09:16:00
+J99,DCE,J99.DCE,10,BackTest.10,11,BackTest.11,多,平,2024.0,3,2018-02-02 09:16:00
+J99,DCE,J99.DCE,11,BackTest.11,12,BackTest.12,多,开,2040.5,3,2018-02-02 10:46:00
+J99,DCE,J99.DCE,12,BackTest.12,13,BackTest.13,多,开,2036.0,3,2018-02-02 10:58:00
+J99,DCE,J99.DCE,13,BackTest.13,14,BackTest.14,多,开,2031.5,3,2018-02-02 11:17:00
+J99,DCE,J99.DCE,14,BackTest.14,15,BackTest.15,空,平,2109.0,3,2018-02-06 14:01:00
+J99,DCE,J99.DCE,15,BackTest.15,16,BackTest.16,空,平,2109.0,3,2018-02-06 14:01:00
+J99,DCE,J99.DCE,16,BackTest.16,17,BackTest.17,空,平,2109.0,3,2018-02-06 14:01:00
+J99,DCE,J99.DCE,17,BackTest.17,19,BackTest.19,多,开,2118.5,3,2018-02-06 22:49:00

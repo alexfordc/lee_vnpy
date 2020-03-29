@@ -21,11 +21,11 @@ from vnpy.app.cta_strategy_pro import (
     CtaGrid,
 )
 from vnpy.app.cta_strategy_pro.cta_grid_trade import LOCK_GRID
-from vnpy.app.cta_strategy_pro.cta_policy import (
-    TNS_STATUS_OPENED,
-    TNS_STATUS_ORDERING,
-    TNS_STATUS_OBSERVATE
-)
+# from vnpy.app.cta_strategy_pro.cta_policy import (
+#     TNS_STATUS_OPENED,
+#     TNS_STATUS_ORDERING,
+#     TNS_STATUS_OBSERVATE
+# )
 from vnpy.app.cta_strategy_pro.cta_renko_bar import CtaRenkoBar
 from vnpy.app.cta_strategy_pro.cta_line_bar import CtaMinuteBar
 from vnpy.data.renko.renko_source import RenkoSource
